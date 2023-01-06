@@ -18,7 +18,7 @@ public class Parallel_Exicution1
 	public void Flipkart()
 	{
 		WebDriver driver=new ChromeDriver();
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
 	}
 }
